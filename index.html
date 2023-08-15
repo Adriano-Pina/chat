@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Adriano Pina">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat de Loja!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="chat-wrapper">
+    <div class="chat-header">
+      Nosso Chat <strong style="font-weight: bold;">Ajuda?</strong>
+      <button class="minimize-button" id="minimizeButton" onclick="toggleChat()">─</button>
+    </div>
+    <div class="chat-body" id="chatBody">
+      <!-- Mensagens do chat serão inseridas aqui -->
+    </div>
+    <div class="chat-footer">
+      <input type="text" id="userInput" placeholder="Digite sua mensagem...">
+      <!-- Botão de enviar removido, não precisaremos mais dele -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
